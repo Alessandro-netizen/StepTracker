@@ -34,5 +34,5 @@ public class StepTracker {
         return activeDays;
     }
 
-    // More methods might be added later.
+   
 }
