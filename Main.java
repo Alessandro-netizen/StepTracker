@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // Test APCalendar
+
         System.out.println("--- APCalendar Tests ---");
         System.out.println("Number of leap years between 2000 and 2024 (inclusive): " +
                            APCalendar.numberOfLeapYears(2000, 2024));
@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Day of the week for May 2, 2025: " +
                            APCalendar.dayOfWeek(5, 2, 2025));
 
-        // Test StepTracker
+
         System.out.println("\n--- StepTracker Tests ---");
         StepTracker tracker = new StepTracker(10000);
         System.out.println("Initial active days: " + tracker.activeDays());
